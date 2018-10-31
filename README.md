@@ -1,1 +1,1 @@
-Galeria-arte de artistas plasticos argentinos
+Galeria de imagenes de artistas plasticos argentinos
