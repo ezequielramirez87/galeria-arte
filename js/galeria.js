@@ -12,4 +12,13 @@ $(document).ready(function(){
             $(this).addClass("activo").siblings().removeClass("activo");
         });
     });
+    $(".caja").click(function(e){
+        let img= e.target.src;
+        let modal= '<div class="modal"><img src="'+ img +'" class="modalimg"><div class="boton">X</div></div>'
+        $("body").append(modal)
+        $(".boton").click(function(){
+            $(".modal").remove();
+        })
+
+    })
 });
